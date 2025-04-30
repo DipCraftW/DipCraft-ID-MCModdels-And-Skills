@@ -1,1 +1,116 @@
 # DipCraft-ID-MCModdels-And-Skills
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>DipCraft ID MC Skills & Moddels</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #1e1e1e;
+      color: #fff;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #2c3e50;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+    }
+
+    .container {
+      padding: 20px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background-color: #2b2b2b;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.5);
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+    }
+
+    .card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+
+    .card-body {
+      padding: 15px;
+    }
+
+    .card-body h3 {
+      margin-top: 0;
+      margin-bottom: 10px;
+    }
+
+    .card-body p {
+      font-size: 14px;
+      margin-bottom: 15px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 10px 15px;
+      background-color: #27ae60;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      background-color: #2c3e50;
+      color: #bbb;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>DipCraft ID MC Skills & Moddels</h1>
+    <p>Buy Custom Skills and moddels by DipCraft</p>
+  </header>
+
+  <div class="container">
+    <div class="card">
+      <img src="https://imgur.com/KjUvzfB.jpg" alt="WEAPONS SKILLS">
+      <div class="card-body">
+        <h3>Somnus Aeternam Staff Evolution Stage</h3>
+        <p>Evolution of the Sins of Sloth staff weapons. Creator: @Reyspring</p>
+        <a href="https://www.mediafire.com/file/4dwlf6lewyowyeq/%5BSPRING%5D_Archmage_Evolution_(Sloth).zip/file" class="btn" target="_blank">Download</a>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="card">
+      <img src="https://imgur.com/TkEa1vo.jpg" alt="WEAPONS SKILLS">
+      <div class="card-body">
+        <h3>One Percent Sins Of Lust</h3>
+        <p>One percent power of the sins of lust. Creator: @DipCraft</p>
+        <a href="https://www.mediafire.com/file/vretg8n05mgyfhk/ONE_PERCENT_SIN_OF_LUST.tar.gz/file" class="btn" target="_blank">Download</a>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 DipCraft ID MC Skills & Moddels. All rights reserved.
+  </footer>
+
+</body>
+</html>
